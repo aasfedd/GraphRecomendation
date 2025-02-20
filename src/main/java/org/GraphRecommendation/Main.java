@@ -32,11 +32,9 @@ class Main {
             visualization.setVisible(true);
 
             Recommender recommender = new Recommender(movieGraph.getGraph());
-            List<String> recommendations;
-            for (int i = 1; i < 64; i++){
-                recommendations = recommender.recommendMovies("User " + i);
-                System.out.println("Recomendations for user:" +i + recommendations);
-            }
+            List<String> recommendations = recommender.recommendMovies("User 6");
+            System.out.println("Recommendations for user 6:"  + recommendations);
+
 
 
 

@@ -1,8 +1,6 @@
 package org.GraphRecommendation;
 
 import org.jgrapht.Graph;
-import org.jgrapht.alg.interfaces.ShortestPathAlgorithm;
-import org.jgrapht.alg.shortestpath.DijkstraShortestPath;
 import org.jgrapht.graph.DefaultWeightedEdge;
 
 import java.util.HashSet;
