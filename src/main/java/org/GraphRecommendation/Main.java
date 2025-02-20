@@ -18,7 +18,6 @@ class Main {
                     movieName = movies.get(ratingId-1)[1];
                 } catch (Exception ex){
                     LOGGER.info("Попытка достать элемент, которого нет, номер элемента:" + String.valueOf(ratingId-1) + "______ Ошибка:" + ex.getMessage() );
-                    movieName = "несуществующий фильм";
                     continue;
                 }
                 double ratingValue = Double.parseDouble(rating[2]);

@@ -9,7 +9,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 public class Recommender {
-    private Graph<String, DefaultWeightedEdge> graph;
+    final private Graph<String, DefaultWeightedEdge> graph;
 
     public Recommender(Graph<String, DefaultWeightedEdge> graph) {
         this.graph = graph;
